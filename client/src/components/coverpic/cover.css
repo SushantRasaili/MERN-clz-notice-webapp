@@ -1,0 +1,38 @@
+/* .covpic {
+    height: 300px;
+    width: 100%;
+    background-image: url('./cover.jpg');
+    background-repeat: no-repeat;
+    background-size:  cover;    
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .8;
+    margin-bottom: 3rem;
+
+} */
+.covpic {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    
+}
+.covimg {
+    height: 300px;
+    width: 100%;
+    opacity: .8;
+    object-fit: cover;
+    z-index: 1;
+}
+.covertitle {
+    color: #fff;
+    position: absolute;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 2.9rem;
+}

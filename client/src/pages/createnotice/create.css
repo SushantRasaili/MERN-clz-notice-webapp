@@ -1,0 +1,74 @@
+.create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.createtitle {
+    color:  #143F6B;
+}
+.createinner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+}
+.createform {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+
+}
+
+.makespace {
+    margin-top: .4rem;
+}
+
+.createinput {
+    border: none;
+border-bottom: .1rem solid #143F6B;
+padding: 1rem;
+height: 2rem;
+}
+.createdesc {
+        border: none;
+    padding: 1rem;
+    border-bottom: .1rem solid #143F6B;
+    resize: none;
+}
+.createinput:focus,.createdesc:focus {
+    outline: none;
+}
+
+.fa-file-circle-plus {
+ color: #343F56;
+ cursor: pointer;
+}
+.createbtn {
+    height: 2rem;
+    background-color: #39A6A3;
+    font-size: 1rem;
+    border: none;
+    border-radius: .2rem;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+}
+.createbtn:hover {
+    color: aqua;
+}
+.logout {
+    margin-top: 1rem;
+    height: 2rem;
+    width: 5rem;
+    background-color: #fb0c17;
+    font-size: 1rem;
+    border: none;
+    border-radius: .2rem;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+}
+.logout:hover {
+    background-color: #ad361b;
+}

@@ -1,0 +1,87 @@
+
+.notice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.innernotice {
+    padding: 1rem 0rem;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+@media screen and (max-width:550px) {
+     .innernotice {
+         width: 90%;
+     }
+}
+
+.noticetopics {
+    text-align: center;
+    color: #0E185F;
+    margin-bottom: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.noticedate {
+    margin-bottom: 1rem;
+    color: #8D8DAA;
+}
+.noticepic {
+    height: 20rem;
+    max-width: 20rem;
+    align-content: center;
+    object-fit: cover;
+    margin:0 auto 2rem;
+}
+.noticedesc {
+    font-size: 20px;
+    font-weight: 400;
+    color: #826F66;
+}
+
+/* update mode */
+.noticeTopicsInput {
+    text-align: center;
+    font-size: 2rem;
+    color: #2A2550;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    border: none;
+    border-bottom: .1rem solid #A0BCC2;
+}
+.noticeTopicsInput:focus {
+    outline: none;
+}
+
+.noticeDescInput {
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    /* resize: none; */
+    border-bottom: .1rem solid #A0BCC2;
+}
+.noticeDescInput:focus {
+    outline: none;
+}
+
+.updateButton {
+    background-color: #39AEA9;
+    color: #fff;
+    border: none;
+    height: 2.5rem;
+    width: 6rem;
+    font-size: 1rem;
+    border-radius: .3rem;
+    cursor: pointer;
+    margin-bottom: 5rem;    /* temporary */
+    transition: .3s;
+}
+.updateButton:hover {
+    opacity: .9;
+    
+
+}

@@ -1,0 +1,50 @@
+.noticecard {
+    height: 25rem;
+    width: 25rem;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    border-radius: .2rem;
+    margin: 1rem;
+    -webkit-box-shadow: 0 0 .8rem #7882A4;
+}
+.cardpic {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+.noticecont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardtopic {
+    padding: .4rem 0;
+    color: #000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.clicktopic {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.carddesc {
+    color: #06113C;
+    padding: .5rem;
+}
+.fa-solid {
+    margin: 0 .5rem;
+    cursor: pointer;
+}
+.clickUpdate {
+    color: green;
+    text-decoration: none;
+    cursor: pointer;
+}
+.adminicons {
+    display:flex;
+    justify-content: flex-end;
+    padding: 0 2rem;
+}
+
+
