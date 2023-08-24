@@ -28,32 +28,6 @@ app.use("/",getSingltNoticeRoute);
 app.use("/",delupNoticeRoute);
 app.use("/",regLogRouter);
 
-app.get("/sendMail", async(req,res) => {
-
-   
-    let transporter =  nodemailer.createTransport({
-    
-    service: "hotmail",
-      auth: {
-        user: "Nodetest44-55@outlook.com", 
-        pass: "Node09#", 
-      },
-    });
-  
-const options = {
-      from: "Nodetest44-55@outlook.com", 
-      to: "sushant.mcity@gmail.com",
-      subject: "Hello ✔", 
-      text: "Hello sushant",
-    };
-  
-    await transporter.sendMail(options)
-    .then(info => console.log(info.response))
-    .catch(err => console.log(err));
-
-})
-
-
 
 
 

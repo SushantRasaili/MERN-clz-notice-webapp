@@ -37,16 +37,14 @@ try {
     
         service: "hotmail",
           auth: {
-            // user: "Nodetest44-55@outlook.com", 
-            // pass: "Node09#", 
+           
             user: NODEUSER,
             pass: NODEPASS,
           }, 
         });
       
     const options = {
-        //   from: "Nodetest44-55@outlook.com", 
-        //   to: "sushant.mcity@gmail.com",
+       
         from: NODEUSER,
         to:   EMAIL,
           subject: "Notice posted", 
